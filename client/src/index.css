@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  background-color: #ccc;
+}
+a {
+  text-decoration: none;
+}
+
+.image-container {
+  width: 50px;
+  height: 50px;
+  overflow: hidden; /* Hides any overflow */
+  position: relative; /* Needed for positioning */
+}
+
+.image-container img {
+  width: 100%; /* Image takes full width */
+  height: 100%; /* Image takes full height */
+  object-fit: cover; /* Ensures the image covers the div while maintaining aspect ratio */
+  border-radius: 50px;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.box-chat {
+  min-height: 65vh;
+  max-height: 65vh;
+  overflow-y: auto;
+}
+.message {
+  background-color: #0d6efd;
+  margin-top: 2px;
+}
+.user-online {
+  margin-right: 5px;
+  top: 0;
+}
